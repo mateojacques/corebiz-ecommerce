@@ -1,5 +1,5 @@
 import styles from './products.module.css'
-import { Product, SliderControls, Separator } from '../../components'
+import { Product, Separator } from '../../components'
 
 const Products = ({ productList, onAddProduct }) => {
   return (
