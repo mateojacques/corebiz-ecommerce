@@ -1,4 +1,4 @@
-@import url(c:\Users\Mateo\Desktop\React\react-portfolio-projects\corebiz-test\src\styles\variables.css);
+@import url(../../styles/variables.css);
 .logo {
   width: 100%;
   max-width: clamp(170px, 20vw, 200px);
