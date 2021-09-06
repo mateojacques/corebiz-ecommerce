@@ -4,7 +4,7 @@ const Separator = ({ color }) => {
   return (
     <div
       className={styles.separator}
-      style={{ border: `3px solid ${color}` }}
+      style={{ border: `3px solid ${color}`, backgroundColor: color }}
     ></div>
   )
 }
