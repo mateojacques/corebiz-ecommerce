@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'menu logo nav' 'search search search';
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 20px 10px 20px;
+}
+
+@media screen and (min-width: 960px) {
+  .navbar {
+        grid-template-areas: 'logo search nav';
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=navbar.module.css.map */

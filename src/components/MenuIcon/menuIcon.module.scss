@@ -1,0 +1,26 @@
+@import url(../../styles/variables.css);
+
+.menuIcon {
+  border: none;
+  background: none;
+  width: 30px;
+  margin-right: auto;
+  transform: translateY(3px);
+  grid-area: menu;
+  cursor: pointer;
+
+  svg {
+    width: 100%;
+    height: auto;
+
+    path {
+      fill: var(--primary);
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .menuIcon {
+    display: none;
+  }
+}

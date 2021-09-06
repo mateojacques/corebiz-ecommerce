@@ -1,0 +1,112 @@
+@import url(../../styles/variables.css);
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  grid-area: nav;
+}
+
+.nav > button {
+  border: none;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: var(--primary);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.nav .user {
+  font-family: var(--body1);
+  font-size: 13px;
+}
+
+.nav .user svg {
+  width: 30px;
+  height: auto;
+}
+
+.nav .user svg path {
+  fill: var(--primary);
+}
+
+.nav .user:hover {
+  opacity: 0.6;
+}
+
+.nav .cart {
+  border: none;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.nav .cart svg {
+  width: 40px;
+  height: auto;
+}
+
+.nav .cart svg path {
+  fill: var(--primary);
+}
+
+.nav .cart > div {
+  width: 25px;
+  height: 25px;
+  border-radius: 13px;
+  background-color: var(--accent);
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav .cart > div p {
+  font-family: var(--body1);
+  font-weight: 700;
+  color: var(--bg);
+}
+
+@media screen and (max-width: 910px) {
+  .nav {
+    max-width: 70px;
+    margin-left: auto;
+  }
+  .nav .user {
+    display: none;
+  }
+  .nav .cart svg {
+    width: 30px;
+  }
+  .nav .cart > div {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=nav.module.css.map */

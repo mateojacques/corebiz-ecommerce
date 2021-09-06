@@ -1,0 +1,17 @@
+@import url(c:\Users\Mateo\Desktop\React\react-portfolio-projects\corebiz-test\src\styles\variables.css);
+.logo {
+  width: 100%;
+  max-width: clamp(170px, 20vw, 200px);
+  margin: 0 auto;
+  grid-area: logo;
+}
+
+.logo svg {
+  width: clamp(170px, 20vw, 200px);
+  height: auto;
+}
+
+.logo svg path {
+  fill: var(--primary);
+}
+/*# sourceMappingURL=logo.module.css.map */

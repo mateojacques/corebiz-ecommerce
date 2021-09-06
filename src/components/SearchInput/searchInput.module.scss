@@ -1,0 +1,47 @@
+@import url(../../styles/variables.css);
+
+.searchInput {
+  width: 100%;
+  min-width: 270px;
+  display: flex;
+  align-items: flex-end;
+  grid-area: search;
+  margin: 25px 12px 0 12px;
+
+  input {
+    width: 100%;
+    font-family: var(--body1);
+    font-size: 1rem;
+    border: unset;
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 3px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  svg {
+    width: 35px;
+    height: 35px;
+    transform: translateX(-30px);
+    cursor: pointer;
+
+    path {
+      fill: var(--primary);
+      transition: 0.2s ease;
+    }
+  }
+
+  svg:hover {
+    path {
+      fill: var(--accent);
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .searchInput {
+    margin: 0;
+  }
+}

@@ -1,0 +1,96 @@
+@import url(../../styles/variables.css);
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: nav;
+
+  > button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--primary);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  .user {
+    font-family: var(--body1);
+    font-size: 13px;
+
+    svg {
+      width: 30px;
+      height: auto;
+
+      path {
+        fill: var(--primary);
+      }
+    }
+  }
+
+  .user:hover {
+    opacity: 0.6;
+  }
+
+  .cart {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    svg {
+      width: 40px;
+      height: auto;
+
+      path {
+        fill: var(--primary);
+      }
+    }
+
+    > div {
+      width: 25px;
+      height: 25px;
+      border-radius: 13px;
+      background-color: var(--accent);
+      transform: translateY(2px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-family: var(--body1);
+        font-weight: 700;
+        color: var(--bg);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .nav {
+    max-width: 70px;
+    margin-left: auto;
+
+    .user {
+      display: none;
+    }
+
+    .cart {
+      svg {
+        width: 30px;
+      }
+
+      > div {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+      }
+    }
+  }
+}

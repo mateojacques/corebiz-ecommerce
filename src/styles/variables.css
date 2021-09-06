@@ -1,0 +1,9 @@
+:root {
+  --bg: #ffffff;
+  --primary: #000000;
+  --accent: #f8475f;
+  --neutral: #bdbdbd;
+  --body1: 'Nunito', sans-serif;
+  --body2: 'Ubuntu', sans-serif;
+  --body3: 'Lato', sans-serif;
+}

@@ -1,0 +1,17 @@
+@import '../../styles/variables.css';
+
+.logo {
+  width: 100%;
+  max-width: clamp(170px, 20vw, 200px);
+  margin: 0 auto;
+  grid-area: logo;
+
+  svg {
+    width: clamp(170px, 20vw, 200px);
+    height: auto;
+
+    path {
+      fill: var(--primary);
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,GAAG,EAAE,IAAI;EACT,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,CAAC;CAaX;;AAlBD,AAME,SANO,GAML,MAAM,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,cAAc;EAChC,MAAM,EAAE,OAAO;CAChB;;AAbH,AAeE,SAfO,CAeP,SAAS,CAAC;EACR,gBAAgB,EAAE,aAAa;CAChC",
+    "sources": [
+        "sliderControls.module.scss"
+    ],
+    "names": [],
+    "file": "sliderControls.module.css"
+}

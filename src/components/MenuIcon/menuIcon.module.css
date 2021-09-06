@@ -1,0 +1,27 @@
+@import url(../../styles/variables.css);
+.menuIcon {
+  border: none;
+  background: none;
+  width: 30px;
+  margin-right: auto;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  grid-area: menu;
+  cursor: pointer;
+}
+
+.menuIcon svg {
+  width: 100%;
+  height: auto;
+}
+
+.menuIcon svg path {
+  fill: var(--primary);
+}
+
+@media screen and (min-width: 960px) {
+  .menuIcon {
+    display: none;
+  }
+}
+/*# sourceMappingURL=menuIcon.module.css.map */
